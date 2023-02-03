@@ -1,7 +1,7 @@
 provider "aws" {}
 
 resource "aws_cloudwatch_log_group" "rbtest" {
-  name = "rbtest
+  name = "rbtest"
 
   tags = {
     Environment = "testing"
